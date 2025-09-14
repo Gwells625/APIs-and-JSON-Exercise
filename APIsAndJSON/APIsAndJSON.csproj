@@ -11,4 +11,11 @@
     <PackageReference Include="Newtonsoft.Json" Version="13.0.4-beta1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <DependentUpon>OpenWeatherMapAPI.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
